@@ -1,6 +1,8 @@
 # AplikasiPengeluaranBendahara
-Tugas Akhir Pemrograman Bergerak
+Tugas Akhir Pemrograman Perangkat Bergerak Lanjut ( 6C )
 
 NAMA  : Hanifatus sholiha
 
 NIM   : 201769040020
+
+Teknik Informataika
