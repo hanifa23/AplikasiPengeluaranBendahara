@@ -5,4 +5,4 @@ NAMA  : Hanifatus sholiha
 
 NIM   : 201769040020
 
-Teknik Informataika
+TEKNIK INFORMATIKA
