@@ -14,6 +14,10 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Action;
 import io.reactivex.schedulers.Schedulers;
 
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
+
 public class AddDataViewModel extends AndroidViewModel {
 
     private PengeluaranDao pengeluaranDao;

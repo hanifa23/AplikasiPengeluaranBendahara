@@ -1,9 +1,5 @@
 package com.hanifa.application.view.add;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.ViewModelProviders;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -12,9 +8,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.lifecycle.ViewModelProviders;
+
 import com.hanifa.application.R;
 import com.hanifa.application.databinding.ActivityAddDataBinding;
 import com.hanifa.application.model.entity.Pengeluaran;
+
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
 
 public class AddDataActivity extends AppCompatActivity {
 
@@ -70,6 +74,7 @@ public class AddDataActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("NewApi")
     private void loadData() {
         mIsEdit = getIntent().getBooleanExtra(KEY_IS_EDIT, false);
         if (mIsEdit) {
@@ -79,8 +84,8 @@ public class AddDataActivity extends AppCompatActivity {
                 String note = pengeluaran.keterangan;
                 int price = pengeluaran.harga;
 
-                binding.etKeterangan.getText;
-                binding.etHarga.getText;
+                binding.etKeterangan.getText().toString();
+                binding.etHarga.getText().toString();
             }
         }
     }

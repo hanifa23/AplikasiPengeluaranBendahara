@@ -38,7 +38,7 @@
                 android:fontFamily="sans-serif-light"
                 android:textColor="@color/primary_text"
                 android:textSize="14sp"
-                tools:text="Beli Nasi Goreng, Tahu, dan Es Buah " />
+                tools:text="Beli Buku, Penghapus Papan, dan Sapu Dll " />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatImageView

@@ -6,6 +6,10 @@ import android.view.ViewGroup;
 
 import java.text.CollationElementIterator;
 
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
+
 public class ItemPengeluaranBinding {
     public View ivDelete;
     public CollationElementIterator tvPrice;

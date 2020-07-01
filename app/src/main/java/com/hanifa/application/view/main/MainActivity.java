@@ -1,13 +1,13 @@
 package com.hanifa.application.view.main;
 
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
-import android.os.Bundle;
-import android.view.View;
 
 import com.hanifa.application.adapter.PengeluaranAdapter;
 import com.hanifa.application.databinding.ActivityMainBinding;
@@ -19,6 +19,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.hanifa.application.databinding.ActivityMainBinding.inflate;
+
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
 
 public class MainActivity extends AppCompatActivity
         implements PengeluaranAdapter.PengeluaranAdapterCallback {

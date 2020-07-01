@@ -5,8 +5,11 @@ import android.os.Parcelable;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
-import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
+
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
 
 @Entity(tableName = "tbl_pengeluaran")
 public class Pengeluaran implements Parcelable {

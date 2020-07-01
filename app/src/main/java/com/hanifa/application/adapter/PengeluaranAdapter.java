@@ -5,17 +5,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.List;
-
-import androidx.annotation.NonNull;
-
-import com.hanifa.application.R;
 import com.hanifa.application.databinding.ItemPengeluaranBinding;
 import com.hanifa.application.model.entity.Pengeluaran;
 import com.hanifa.application.utils.FunctionHelper;
-import com.hanifa.application.view.main.MainActivity;
+
+import java.util.List;
+
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
 
 public class PengeluaranAdapter extends
         RecyclerView.Adapter<PengeluaranAdapter.ViewHolder> {

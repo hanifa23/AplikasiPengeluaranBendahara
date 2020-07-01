@@ -7,6 +7,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.CollationElementIterator;
 
+/**
+ * Created by Hanifatus sholiha on 22/juni/2020.
+ */
+
 public class ActivityMainBinding {
     public View fabAdd;
     public View btnHapus;
